@@ -991,6 +991,10 @@ video {
     padding-top: 6rem;
   }
 
+  .max-sm\:pt-10 {
+    padding-top: 2.5rem;
+  }
+
   .max-sm\:text-white {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
