@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@layer components{
+    .btn-indigo{
+        @apply bg-indigo-600 text-white px-6 py-3 rounded-md;
+    }
+
+    .bgPink{
+       @apply absolute w-96 pb-72 rounded-full -z-10 bg-gradient-to-tl from-pink-50 to-pink-300 shadow-2xl outline-8 outline-pink-200 opacity-40 shadow-pink-200 -top-10 -left-20 max-sm:pb-[50rem] max-sm:-left-56 max-sm:-top-24;
+    }
+}

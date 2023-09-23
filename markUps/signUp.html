@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/output.css">
+    <title>Document</title>
+</head>
+<body class="bg-pink-50">
+
+    <header class="flex justify-between px-20 py-10 max-sm:px-8">
+
+        <span>
+            <img src="/Assets/Logo.svg" alt="">
+        </span>
+
+        <span class="flex items-center gap-2" id="back-btn" value>
+            <img  class="w-8 p-2 bg-white shadow-lg cursor-pointer block" src="/Assets/back-icon.svg" alt="" >
+            <p class="text-lg font-bold max-sm:hidden">Back to homepage</p>
+        </span>
+
+    </header>
+
+ <!-- this is the main  -->
+    <main class="flex px-20 items-center gap-[10%] max-md:flex-col max-sm:px-8">
+
+        <section class="flex flex-col gap-5 w-2/5 max-md:w-full max-md:gap-5">
+            <h2 class="text-3xl font-semibold">Create your personalized feed.</h2>
+            <div class="flex gap-2 text-lg">
+                <i> &#127880;</i>
+                <p><span class="font-semibold">Over 20 resources.</span> With resources ranging from to IndieHackers., we've got all your needs covered.</p>
+            </div>
+            
+            <div class="flex gap-2">
+                <i>
+                    <img class="w-10" src="/Assets/money-6396.svg" alt="">
+                </i>
+                <p><span class="font-semibold">Delivered weekly.</span>Every week at exactly Tuesday 12:00 P.M. EST - expect a value-packed digest right in your email.</p>
+            </div>
+            
+            <div class="flex gap-2">
+                <i>&#x1F4A1;</i>
+                <p><span class="font-semibold">Unlimited ideas.</span>With all the ideas you'll be reading about. What's stopping you from creating a sustainable startup?</p>
+            </div>
+        </section>
+
+    <!-- this is the form section  -->
+        <section class="bg-white shadow w-1/2 rounded-sm max-md:w-full max-md:my-10">
+            <div class="flex flex-col p-5 gap-4">
+                <h2 class="text-2xl font-semibold">Create your IndieBrew Account</h2>
+
+                <form class="flex flex-col gap-2">
+                    <label for="email" class="text-lg font-medium">Email</label>
+                    <input type="email" placeholder="john@example.com" class="border py-2 border-gray-400 placeholder:pl-5" required>
+
+                    <label for="fullName" class="text-lg font-medium">Full Name</label>
+                    <input type="text" placeholder="John Doe" class="border py-2 border-gray-400 placeholder:pl-5" required>
+
+                    <label for="password" class="text-lg font-medium">Password</label>
+                    <input type="password" placeholder="At least 8 characters" class="border py-2 border-gray-400 placeholder:pl-5" required>
+
+                    <span>
+                        <input type="checkbox">
+                        <label for="accept">By creating an account on IndieBrew, you agree to the <a href="" class="underline text-indigo-600 text-lg">Terms & Conditions.</a></label>
+                    </span>
+
+                    <button class="text-lg font-medium text-gray-50 bg-indigo-600 py-2 shadow rounded-md">Create an Account</button>
+                </form>
+
+            </div>
+        </section>
+    </main>
+<script src="/index.js"></script>
+</body>
+</html>
