@@ -10,7 +10,7 @@ const goToSignUp = ()=>{
 
 const backToHome = ()=>{
 
-    window.location.href = "./index.html"
+    window.location.href = "index.html"
 }
 
 indigoBtn.forEach((e)=>{
