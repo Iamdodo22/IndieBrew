@@ -5,7 +5,7 @@ const indigoBtn = document.querySelectorAll('.btn-indigo');
 const modal = document.querySelector('#modal')
 
 const goToSignUp = ()=>{
-    window.location.href = "./signUp.html"
+    window.location.href = "signUp.html"
 }
 
 const backToHome = ()=>{
